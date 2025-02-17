@@ -1,0 +1,48 @@
+/* Apply black background and creme text */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000; /* Pure black */
+    color: #F5DEB3; /* Creme color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #F5DEB3; /* Creme color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styling */
+section {
+    padding: 30px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #111; /* Slightly lighter black */
+}
+
+
+
+.profile-img {
+    width: 150px; /* Adjust size */
+    height: 150px;
+    border-radius: 50%; /* Makes it circular */
+    display: block;
+    margin: 20px auto; /* Centers the image */
+}
